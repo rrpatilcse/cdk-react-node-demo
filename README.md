@@ -12,3 +12,20 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 * `cdk deploy`      deploy this stack to your default AWS account/region
 * `cdk diff`        compare deployed stack with current state
 * `cdk synth`       emits the synthesized CloudFormation template
+
+## Sample API Input
+/device
+    body = {
+      equipmentNumber: '107AZ203300060',
+      deviceId: 'CPU',
+      deviceType: 'KCECPUCc',
+      deviceStatus: 'Connect',
+      provisionStatus: 'Active',
+      swVersion: '5.0.4'
+    }
+
+/equipment
+    body = {
+        "equipmentNumber": "107AZ203300060",
+        "equipmentLocation": "TestLocation"
+    }
