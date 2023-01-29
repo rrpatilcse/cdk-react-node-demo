@@ -6,18 +6,20 @@
 * `cdk synth`       emits the synthesized CloudFormation template
 
 ## Sample API Input
-/device
-    ```json 
+Endpoint - /device\
+Input\
+```json 
     {
-      equipmentNumber: '107AZ203300060',
-      deviceId: 'CPU',
-      deviceType: 'KCECPUCc',
-      deviceStatus: 'Connect',
-      provisionStatus: 'Active',
-      swVersion: '5.0.4'
+      "equipmentNumber": "107AZ203300060",
+      "deviceId": "CPU",
+      "deviceType": "KCECPUCc",
+      "deviceStatus": "Connect",
+      "provisionStatus": "Active",
+      "swVersion": "5.0.4"
     }
-    ```
-/equipment
+```
+Endpoint - /equipment\
+Input
 ```json 
     {
         "equipmentNumber": "107AZ203300060",
