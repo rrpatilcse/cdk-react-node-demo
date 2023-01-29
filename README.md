@@ -7,7 +7,7 @@
 
 ## Sample API Input
 Endpoint - /device\
-Input\
+Input
 ```json 
     {
       "equipmentNumber": "107AZ203300060",
